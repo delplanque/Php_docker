@@ -1,6 +1,6 @@
-job('My Job 1') {
+job('My Job 2') {
     scm {
-        git('https://github.com/akasam/jenkins-demo1') {  node -> 
+        git('https://github.com/delplanque/Php_docker') {  node -> 
             node / gitConfigName('J.delplanque')
             node / gitConfigEmail('delplanque.jordan@gmail.com')
         }
